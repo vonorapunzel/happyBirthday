@@ -27,7 +27,7 @@ body {
 
 .container {
     margin: 0 auto;
-    
+    margin-top: 10%;
     max-width: 330px;
     height: 500px;
     display: flex;
@@ -72,10 +72,6 @@ input::placeholder {
     line-height: 22px;
     padding: 0;
     outline: none;
-}
-
-.button: {
-
 }
 
 .error {

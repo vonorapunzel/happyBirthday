@@ -27,7 +27,7 @@ body {
 
 .container {
     margin: 0 auto;
-    margin-top: 50px;
+    
     max-width: 330px;
     height: 500px;
     display: flex;

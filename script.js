@@ -10,7 +10,7 @@ button.addEventListener('click', () => {
         image.src = './witcher.svg';
         image.alt = 'Ведьмак';
         success.classList.add('success_visible');
-        success.textContent = 'КНИГА 256';
+        success.textContent = '256 СТР';
         image.classList.add('image_visible');
     } else {
         error.classList.remove('error_visible');

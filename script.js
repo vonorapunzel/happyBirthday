@@ -5,7 +5,7 @@ const image = document.querySelector('.image');
 const success = document.querySelector('.success');
 
 button.addEventListener('click', () => {
-    if (input.value === 'гг') {
+    if (input.value.toLowerCase() === 'ведьмак') {
         error.textContent = '';
         image.src = './witcher.svg';
         image.alt = 'Ведьмак';
